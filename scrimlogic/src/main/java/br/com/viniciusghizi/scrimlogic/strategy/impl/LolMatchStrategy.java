@@ -16,7 +16,7 @@ import br.com.viniciusghizi.scrimlogic.strategy.ScrimStrategy;
 public class LolMatchStrategy implements ScrimStrategy {
     private final List<ScrimRule> rules;
 
-    public LolRankedStrategy(List<ScrimRule> rules) {
+    public LolMatchStrategy(List<ScrimRule> rules) {
         this.rules = rules;
     }
 
