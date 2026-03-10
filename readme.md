@@ -3,6 +3,9 @@
 # ScrimLogic Backend
 
 O **ScrimLogic** é um sistema de backend resiliente focado na ingestão assíncrona, processamento em lote (*batch processing*) e persistência de métricas de partidas competitivas. O sistema foi projetado para lidar com fluxos de dados de diferentes modalidades de eSports (League of Legends e Rocket League).
+O software foi desenvolvido utilizando os padrões Strategy e Factory. Escolhi essa abordagem para isolar as regras de negócio de cada modalidade, respeitando os princípios do SOLID e facilitando a escalabilidade do sistema para novas modalidades.
+
+*Veja que a branch feature/rocket tem a implementação de uma nova modalidade e regra de negócio - com apenas 2 classes*
 
 ---
 
