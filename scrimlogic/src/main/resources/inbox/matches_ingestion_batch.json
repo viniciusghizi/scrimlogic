@@ -1,0 +1,40 @@
+{
+  "batchId": "B-2026-03-06-V1",
+  "source": "AWS_SQS_SCRIMLOGIC",
+  "matches": [
+    {
+      "game": "LOL",
+      "matchId": "BR1_111",
+      "mode": "CLASSIC",
+      "data": {
+        "duration": 1850,
+        "winnerId": 100,
+        "team_100": { "gold": 61000, "barons": 1, "dragons": 3 },
+        "team_200": { "gold": 58000, "barons": 0, "dragons": 2 }
+      }
+    },
+    {
+      "game": "LOL",
+      "matchId": "BR1_222",
+      "mode": "CLASSIC",
+      "data": {
+        "duration": 950,
+        "winnerId": 200,
+        "team_100": { "gold": 25000, "barons": 0, "dragons": 0 },
+        "team_200": { "gold": 42000, "barons": 1, "dragons": 1 }
+      }
+    },
+    {
+      "game": "ROCKET_LEAGUE",
+      "matchId": "RL_999",
+      "mode": "RANKED_3V3",
+      "data": {
+        "duration": 300,
+        "blueScore": 4,
+        "orangeScore": 1,
+        "blueStats": { "shots": 12, "saves": 5 },
+        "orangeStats": { "shots": 8, "saves": 3 }
+      }
+    }
+  ]
+}
