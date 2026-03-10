@@ -13,7 +13,7 @@ import br.com.viniciusghizi.scrimlogic.rules.ScrimRule;
 import br.com.viniciusghizi.scrimlogic.strategy.ScrimStrategy;
 
 @Component
-public class LolRankedStrategy implements ScrimStrategy {
+public class LolMatchStrategy implements ScrimStrategy {
     private final List<ScrimRule> rules;
 
     public LolRankedStrategy(List<ScrimRule> rules) {
